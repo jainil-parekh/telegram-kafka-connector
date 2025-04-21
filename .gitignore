@@ -1,0 +1,41 @@
+# Ignore environment files (for sensitive data)
+.env
+
+# Docker related files
+.docker/
+docker-compose.override.yml
+docker-compose.yml*
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore Kafka offsets, logs, and other transient files
+*.log
+*.csv
+*.json
+*.tmp
+
+# IDE specific files (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# OS-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Java class files and build directories (if applicable)
+*.class
+*.jar
+
+# Ignore any backup or swap files
+*.bak
+*.swp
